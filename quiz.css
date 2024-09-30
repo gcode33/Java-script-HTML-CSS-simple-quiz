@@ -1,0 +1,103 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Styling for the question section */
+.question {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the progress bar */
+/* Styling for the progress bar */
+#progressBar {
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#progressBar span {
+    display: block;
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out; /* Add transition for smooth animation */
+}
+
+/* Styling for the tip */
+#Tip {
+    cursor: help;
+    color: #0066ff;
+}
+
+/* Styling for the form */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Styling for the buttons */
+button {
+    display: block;
+    margin-top: 20px;
+    background-color: #0066ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #004080;
+}
+
+/* Styling for the finish button */
+#finish {
+    display: block;
+    margin-top: 20px;
+    background-color: #ff3333;
+}
+
+#finish:hover {
+    background-color: #cc0000;
+}
+#progressBar {
+    width: 100%;
+    background-color: #f3f3f3; /* Light grey */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative; /* Position relative for absolute positioning of inner progress */
+}
+
+#progressBar span {
+    display: block;
+    background-color: #007bff; /* Blue color */
+    height: 100%;
+    border-radius: 5px;
+    width: 0%; /* Initial width 0, it will be updated dynamically */
+    transition: width 0.5s ease; /* Smooth transition animation */
+}

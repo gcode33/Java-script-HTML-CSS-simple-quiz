@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+</head>
+<body>
+    <div class="question" id="questionSection">
+        <h2 id="question"></h2>
+        <form id="quizForm">
+            <label><input type="radio" name="answer" value="a" id="optionA"> <span id="labelA"></span></label><br>
+            <label><input type="radio" name="answer" value="b" id="optionB"> <span id="labelB"></span></label><br>
+            <label><input type="radio" name="answer" value="c" id="optionC"> <span id="labelC"></span></label><br>
+            <label><input type="radio" name="answer" value="d" id="optionD"> <span id="labelD"></span></label><br>
+                <!--*****************************************************
+                 * Title: Html – How to display text next to radio button
+                * Author:itechnote.com
+                * Site owner/sponsor: itechnote.com
+                * Date: ?
+                * Code version: edited november 27th, 2023 at 18:22
+                * Availability: https://itecnote.com/tecnote/html-how-to-display-text-next-to-radio-button// (Accessed 27th November 2023)
+                * Modified: yes
+                *****************************************************//
+                //End of [non-original or refactored] code-->
+            <div id ="progressBar">1/5</div>
+            <button type="button" id="nextQuestionButton">Next Question</button> <div id = "Tip" onmouseover="Tips()">Tip</div>
+            <button type="button" id="finish" style="display: none;">finish quiz</button>
+        </form>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
